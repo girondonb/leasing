@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leasing2</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Data Entry Fragment -->
+    <string name="data_entry_textview_beginningdate">Entrez la date de début du contrat</string>
+	<string name="data_entry_edittext_hint_dailykilometer">Entrez le nombre de kilomètres jusqu\'au travail</string>
+	<string name="data_entry_edittext_hint_annualypersonalkilometer">Entrez le nombre de Kilomètres personnels Annuels</string>
+	<string name="data_entry_edittext_hint_numberofyears">Durée du contrat (en années)</string>
+	<string name="data_entry_button_validate">Valider</string>
+	<string name="data_entry_editText_currentnumberofkilometer">Nombre de kilomètres parcourus</string>
+	
+	<!-- Result Fragment -->
+	<string name="result_textview_dateendcontract">Date de fin du contrat :</string>
+	<string name="result_textview_kilometersauthorised">Kilomètres autorisés :</string>
+	<string name="result_textView_kilometersyearly">Kilomètres autorisés par ans :</string>
+	<string name="result_textview_kilometersmonthly">Kilomètres autorisés par mois :</string>
+	<string name="result_textview_kilometersdaily">Kilomètres autorisés par jour :</string>
+	<string name="result_textview_kilometersdailywithoutworkingjourney">Kilomètres autorisés par jour sans les trajets :</string>
+	<string name="result_textview_weekworkingkilometer">Kilomètres effectués par semaine pour le travail :</string>
+	<string name="result_textview_weekendkilometersifuseronlydoneworkingday">Kilomètres autorisés par semaine en plus :</string>
+	<string name="result_textview_percentageofadvancement">Pourcentage d\'avancement par rapport au contrat</string>
+	
+	
+	
+</resources>

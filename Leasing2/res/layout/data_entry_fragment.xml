@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/DataEntryFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/data_entry_textview_beginningdate"/>
+	
+	<DatePicker
+	    android:id="@+id/data_entry_datepicker_beginningdate"
+	    android:tag="data_entry_datepicker_beginningdate"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:spinnersShown="true" 
+	   	android:calendarViewShown="false"/>
+	
+	<EditText
+	    android:id="@+id/data_entry_edittext_dailykilometers"
+	    android:tag="data_entry_edittext_dailykilometers"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:hint="@string/data_entry_edittext_hint_dailykilometer"
+	    android:inputType="number"/>
+	
+	<EditText
+	    android:id="@+id/data_entry_edittext_annualypersonalkilometer"
+	    android:tag="data_entry_edittext_annualypersonalkilometer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/data_entry_edittext_hint_annualypersonalkilometer" 
+		android:inputType="number"/>
+	
+	<EditText
+	    android:id="@+id/data_entry_edittext_numberofyears" 
+	    android:tag="data_entry_edittext_numberofyears"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/data_entry_edittext_hint_numberofyears" 
+	    android:inputType="number"/>
+	
+	<EditText
+	    android:id="@+id/data_entry_editText_currentnumberofkilometer"
+	    android:tag="data_entry_editText_currentnumberofkilometer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/data_entry_editText_currentnumberofkilometer"
+	    android:inputType="number"/>
+	
+	<Button 
+	    android:id="@+id/data_entry_button_validate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/data_entry_button_validate"/>
+	
+	<Button 
+	    android:id="@+id/data_entry_button_maps" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Maps"
+	    />"
+	
+</LinearLayout>

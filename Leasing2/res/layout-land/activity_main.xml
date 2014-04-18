@@ -1,0 +1,36 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/mainActivity">
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    tools:context=".MainActivity" 
+	    android:orientation="horizontal"
+	    android:baselineAligned="false">
+	
+	    <fragment 
+	        android:name="com.leasing2.dataentryfragment.DataEntryFragment"
+	        android:id="@+id/DataEntryFragment"
+	        android:layout_width="0px"
+	        android:layout_height="match_parent"
+	        android:layout_weight="50"/>
+		
+	    <fragment 
+	        android:name="com.leasing2.resultfragment.ResultFragment"
+	        android:id="@+id/ResultFragment"
+	        android:layout_width="0px"
+	        android:layout_height="match_parent"
+	        android:layout_weight="50"/>
+	    
+	</LinearLayout>
+	
+</ScrollView>

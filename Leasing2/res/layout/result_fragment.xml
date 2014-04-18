@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ResultFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/result_textview_dateendcontract"/>
+	
+	<TextView 
+	    android:id="@+id/result_textview_dateendcontract"
+	    android:tag="result_textview_dateendcontract"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_kilometersauthorised"/>
+	
+	<TextView 
+	    android:id="@+id/result_textview_kilometersauthorised"
+	    android:tag="result_textview_kilometersauthorised"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/result_textView_kilometersyearly"/>
+	
+	<TextView 
+	    android:id="@+id/result_textView_kilometersyearly"
+	    android:tag="result_textView_kilometersyearly"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_kilometersmonthly"/>
+	
+	<TextView 
+	    android:id="@+id/result_textview_kilometersmonthly"
+	    android:tag="result_textview_kilometersmonthly"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_weekworkingkilometer"/>
+	
+	<TextView
+	    android:id="@+id/result_textview_weekworkingkilometer"
+	    android:tag="result_textview_weekworkingkilometer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_weekendkilometersifuseronlydoneworkingday"/>
+	
+	<TextView
+	    android:id="@+id/result_textview_weekendkilometersifuseronlydoneworkingday"
+	    android:tag="result_textview_weekendkilometersifuseronlydoneworkingday"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_kilometersdaily"/>
+	
+	<TextView 
+	    android:id="@+id/result_textview_kilometersdaily"
+	    android:tag="result_textview_kilometersdaily"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_kilometersdailywithoutworkingjourney"/>
+	
+	<TextView
+	    android:id="@+id/result_textview_kilometersdailywithoutworkingjourney"
+	    android:tag="result_textview_kilometersdailywithoutworkingjourney"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/result_textview_percentageofadvancement"/>
+	
+	<TextView 
+	    android:id="@+id/result_textview_percentageofadvancement"
+	    android:tag="result_textview_percentageofadvancement"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+
+</LinearLayout>
