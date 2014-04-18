@@ -17,7 +17,6 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 
 import com.leasing2.maps.ActivityMaps;
-import com.leasing2.maps.MapsViewFragment;
 import com.leasing2.utilities.CalculsEngine;;
 
 public class DataEntryFragment extends Fragment {

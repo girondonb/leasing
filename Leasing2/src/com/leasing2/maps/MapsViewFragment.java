@@ -1,20 +1,8 @@
 package com.leasing2.maps;
 
-import java.util.ArrayList;
-
-import org.w3c.dom.Document;
-
-import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.PolylineOptions;
-import com.leasing2.utilities.GMapV2Direction;
-import com.leasing2.utilities.MapsUtils;
 
-import android.graphics.Color;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

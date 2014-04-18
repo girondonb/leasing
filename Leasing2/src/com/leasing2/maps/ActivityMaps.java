@@ -20,7 +20,6 @@ import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.text.Layout.Directions;
 
 public class ActivityMaps extends Activity{
 	private final double INITIAL_LATITUDE = 49.616939;

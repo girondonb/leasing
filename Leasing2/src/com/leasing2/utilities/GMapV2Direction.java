@@ -17,8 +17,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import com.google.android.gms.maps.model.LatLng;
-
-import android.location.Geocoder;
 import android.util.Log;
 
 public class GMapV2Direction {
